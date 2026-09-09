@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
-    	System.out.println("Payment feature added");
+    	System.out.println("Online Payment Feature Added");
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Simple Calculator");
