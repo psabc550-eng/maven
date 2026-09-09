@@ -1,4 +1,3 @@
-```xml
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -19,8 +18,7 @@
 
     <packaging>war</packaging>
 
-    <name>Simple Calculator</name>
-
+    <name>Simple Calculator Payment</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
@@ -32,7 +30,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
 
-            <artifactId>junit-jupiter-ap</artifactId>
+            <artifactId>junit-jupiter-api</artifactId>
 
             <version>5.11.0</version>
             <scope>test</scope>
@@ -50,7 +48,7 @@
 
                 <artifactId>maven-compiler-plugin</artifactId>
 
-                <version>3.1.0</version>
+                <version>3.13.0</version>
 
                 <configuration>
                     <release>11</release>
@@ -86,4 +84,4 @@
     </build>
 
 </project>
-```
+
